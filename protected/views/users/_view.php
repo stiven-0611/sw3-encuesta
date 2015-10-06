@@ -3,23 +3,14 @@
 /* @var $data Users */
 ?>
 
-<div class="view">
+<div class="media">
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id')); ?>:</b>
-	<?php echo CHtml::link(CHtml::encode($data->id), array('view', 'id'=>$data->id)); ?>
 	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('username')); ?>:</b>
-	<?php echo CHtml::encode($data->username); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('password')); ?>:</b>
-	<?php echo CHtml::encode($data->password); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('email')); ?>:</b>
-	<?php echo CHtml::encode($data->email); ?>
-	<br />
-
-
+	<div class="media-boby">
+		<h4 class="media-heading">
+		<?php echo CHtml::encode($data->getAttributeLabel('id')); ?>: <?php echo CHtml::link(CHtml::encode($data->id), array('view', 'id'=>$data->id)); ?>
+		<?php echo CHtml::encode($data->username); ?> <small><?php echo CHtml::encode($data->email); ?></small>
+		</h4>
+		<p><?php echo CHtml::encode($data->password); ?> </p>
+	</div>
 </div>

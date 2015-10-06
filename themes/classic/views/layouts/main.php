@@ -40,11 +40,11 @@
       <?php $this->widget('zii.widgets.CMenu',array(
              'htmlOptions'=>array("class"=>"nav"),
               'items'=>array(
-                array('label'=>'Home', 'url'=>array('/site/index')),
-                array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
-                array('label'=>'Contact', 'url'=>array('/site/contact')),
-                array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-                array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+                array('label'=>'Inicio', 'url'=>array('/site/index')),
+                array('label'=>'Nosotros', 'url'=>array('/site/page', 'view'=>'about')),
+                array('label'=>'Contacto', 'url'=>array('/site/contact')),
+                array('label'=>'Ingresar', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
+                array('label'=>'Salir ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
               ),
             )); ?>
 
@@ -69,18 +69,16 @@
         <div class="row-fluid">
             <div class="span3">
                 <section>
-                    <h4><span>Contact Us</span></h4>
-                    <p>Gustalh Creative<br>
-                        123456 <br>
-                        Bogotá Colombia<br>
-                        <strong>phone:</strong> <a href="tel:123456789" class="tele">123456789</a><br>
-                        <strong>fax:</strong> 123456789<br>
-                        <span class="overflow"><strong>email:</strong> <a href="mailto:email@domain.com">email@companydomain.com</a></span> </p>
+                    <h4><span>Contacto</span></h4>
+                    <p>Universidad del Quindío<br>
+                       <br>
+                        Armenia Colombia<br>
+                       <span class="overflow"><strong>email:</strong> <a href="mailto:email@domain.com">Encuestas@uniquindio.edu.co</a></span> </p>
                 </section>
                 <!--close section-->
 
                 <section>
-                    <h4><span>Follow Us</span></h4>
+                    <h4><span>síguenos</span></h4>
                     <div class="social">
                       <a href="#"><i class="icon-facebook facebook"></i></a>
                       <a href="#"><i class="icon-twitter twitter"></i></a>
@@ -95,12 +93,16 @@
             <!--section containing newsletter signup and recent images-->
             <div class="span5">
                 <section>
-                    <h4><span>Stay Updated</span></h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius.</p>
+                    <h4><span>Mejoramiento Continuo</span></h4>
+                    <p>El proceso de mejoramiento continuo se sigue por medio de las 
+                      directivas del ministerio de educación nacional.</p>
                         <form action="#" method="post">
+                          <br>
+                              <p> Poner imágen </p>
+                          </br>
                     <div class="input-append append-fix custom-append row-fluid">
-                      <input type="email" class="span8" placeholder="Email Address" name="email">
-                            <button class="btn btn-primary">Sign Up</button>
+                     
+
 
                     </div></form>
                     <!--close input-append-->
@@ -112,15 +114,11 @@
             <!--section containing blog posts-->
             <div class="span4">
                 <section>
-                    <h4><span>About Us</span></h4>
+                    <h4><span>Nosotros</span></h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+                     Somos un grupo de estudiantes que tiene como misión elaborar la plataforma de encuestas
+                     versión 2.0 como proyecto del espacio acádemico de ingeniería de software 3
+                     </p>
                 </section>
             </div>
             <!-- close .span4 -->
@@ -134,9 +132,7 @@
  <section class="footer-credits">
     <div class="container">
         <ul class="clearfix">
-            <li>© 2013 Your Company Name. All rights reserved.</li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
+            <li>© 2015 All rights reserved.</li>
         </ul>
     </div>
     <!--close footer-credits container-->
