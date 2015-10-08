@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta-runner name="Generate GitHub Release Notes">
+  <description>Generate GitHub Release Notes</description>
+  <settings>
+    <parameters>
+      <param name="mr.GenerateGitReleaseNotes.Repository" value="" spec="text description='The GitHub repository to generate release notes for, e.g. maartenba/repo1.' display='normal' label='Repository:' validationMode='any'" />
+      <param name="mr.GenerateGitReleaseNotes.Token" value="" spec="text description='GitHub OAuth2 token which can be used to connect to the GitHub repository.' display='normal' label='OAuth2 token:' validationMode='any'" />
+      <param name="mr.GenerateGitReleaseNotes.OutputFile" value="%teamcity.build.workingDir%\releasenotes.md" spec="text description='Specified the file in which release notes are generated.' display='normal' label='Output File:' validationMode='any'" />
+      <param name="mr.GenerateGitReleaseNotes.AllTags" value="false" spec="checkbox checkedValue='true' uncheckedValue='false' description='Specifies that all tags should be included in the release notes, if not specified then only the issues since the last tag are included.' display='normal' label='All Tags:' validationMode='any'" />
+      <param name="mr.GenerateGitReleaseNotes.Version" value="" spec="text description='Specifies the version to publish.' display='normal' label='Version:' validationMode='any'" />
+      </parameters>
+    <build-runners>
+      <runner id="RUNNER_14" name="" type="Ant">
+        <parameters>
+          <param name="build-file">
+    <![CDATA[<project name="MetaRunner">
+
+<property name="mr.GenerateGitReleaseNotes.GitReleaseNotes.NugetVersion" value="0.6.0" />
+
+<target name="run" depends="downloadExecutable,runExecutable">
+</target>
+
+<target name="downloadExecutable">
+  <echo>Downloading and extracting latest GitReleaseNotes.exe...</echo>
+  <exec executable="%teamcity.tool.NuGet.CommandLine.DEFAULT.nupkg%\tools\NuGet.exe" dir="${teamcity.build.tempDir}" failonerror="false">
+    <arg line="install GitReleaseNotes -Version ${mr.GenerateGitReleaseNotes.GitReleaseNotes.NugetVersion} -OutputDirectory &quot;${teamcity.build.tempDir}\packages&quot;"/>
+  </exec>  
+  <echo>Downloaded and extracted latest GitReleaseNotes.exe.</echo>
+</target>
+
+<target name="runExecutable">
+  <echo>Running GitReleaseNotes.exe...</echo>
+  <echo>The command is.... /WorkingDirectory ${teamcity.build.workingDir} /IssueTracker GitHub /Repo %mr.GenerateGitReleaseNotes.Repository% /Token %mr.GenerateGitReleaseNotes.Token% /OutputFile %mr.GenerateGitReleaseNotes.OutputFile% /AllTags %mr.GenerateGitReleaseNotes.AllTags% /Version %mr.GenerateGitReleaseNotes.Version% /Verbose %mr.GenerateGitReleaseNotes.Verbose% </echo>
+  <exec executable="${teamcity.build.tempDir}\packages\GitReleaseNotes.${mr.GenerateGitReleaseNotes.GitReleaseNotes.NugetVersion}\tools\GitReleaseNotes.exe" dir="${teamcity.build.workingDir}" failonerror="false">
+    <arg line='/WorkingDirectory ${teamcity.build.workingDir} /IssueTracker GitHub /Repo %mr.GenerateGitReleaseNotes.Repository% /Token %mr.GenerateGitReleaseNotes.Token% /OutputFile %mr.GenerateGitReleaseNotes.OutputFile% /AllTags %mr.GenerateGitReleaseNotes.AllTags% /Version %mr.GenerateGitReleaseNotes.Version% /Verbose %mr.GenerateGitReleaseNotes.Verbose% '/>
+  </exec>
+  <echo>Finished running GitReleaseNotes.exe.</echo>
+</target>
+
+
+</project>]]></param>
+          <param name="build-file-path" value="build.xml" />
+          <param name="target" value="run" />
+          <param name="teamcity.coverage.emma.include.source" value="true" />
+          <param name="teamcity.coverage.emma.instr.parameters" value="-ix -*Test*" />
+          <param name="teamcity.coverage.idea.includePatterns" value="*" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use-custom-build-file" value="true" />
+        </parameters>
+      </runner>
+    </build-runners>
+    <requirements />
+  </settings>
+</meta-runner>
