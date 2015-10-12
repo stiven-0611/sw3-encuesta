@@ -32,6 +32,17 @@ class SiteController extends Controller
 		$this->render('index');
 	}
 
+
+	/**
+	*
+	*/
+	public function actionEncuesta()
+	{
+		$this->render('encuesta');
+	}
+
+
+
 	/**
 	 * This is the action to handle external exceptions.
 	 */

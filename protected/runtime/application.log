@@ -5472,3 +5472,585 @@ Stack trace:
 REQUEST_URI=/yii/encuesta/site/js/bootstrap.min.js
 HTTP_REFERER=http://localhost/yii/encuesta/site/page.html?view=about
 ---
+2015/10/12 03:10:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "encuesta".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('encuesta')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('encuesta')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/encuesta')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/encuesta.html
+HTTP_REFERER=http://localhost/yii/encuesta/site/page.html?view=about
+---
+2015/10/12 03:10:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/js.js')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/js.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 03:10:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/jquery.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 03:10:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 03:41:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "encuesta".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('encuesta')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('encuesta')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/encuesta')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/encuesta.html
+---
+2015/10/12 03:41:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/jquery.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 03:41:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 03:41:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/js.js')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/js.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 03:59:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/js.js')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/js.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/index.html
+---
+2015/10/12 03:59:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/jquery.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/index.html
+---
+2015/10/12 03:59:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/index.html
+---
+2015/10/12 03:59:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/jquery.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 03:59:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 03:59:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/js.js')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/js.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 03:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/jquery.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 03:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/js.js')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/js.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 03:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:01:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:01:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/jquery.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:01:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/js.js')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/js.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:01:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/jquery.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:01:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:01:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/js.js')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/js.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:01:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/js.js')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/js.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:01:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/jquery.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:01:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:03:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/jquery.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:03:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/js.js')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/js.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:03:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:20:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/js.js')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/js.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:20:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:20:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/jquery.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:25:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/js.js')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/js.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/page.html?view=about
+---
+2015/10/12 04:25:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/jquery.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/page.html?view=about
+---
+2015/10/12 04:25:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/page.html?view=about
+---
+2015/10/12 04:25:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/js.js')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/js.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:25:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/jquery.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:25:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:25:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/js.js')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/js.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/index.html
+---
+2015/10/12 04:25:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/jquery.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/index.html
+---
+2015/10/12 04:25:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/index.html
+---
+2015/10/12 04:25:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:25:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/jquery.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:25:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/js.js')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/js.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/js.js')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/js.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/jquery.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:41:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/js.js')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/js.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:41:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/jquery.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:41:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:43:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/jquery.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:43:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/js.js')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/js.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
+2015/10/12 04:43:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---
