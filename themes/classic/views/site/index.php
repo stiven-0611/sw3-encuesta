@@ -28,7 +28,6 @@
       </div>
     </div>
 </div><!-- /.span4 -->
-
 <section class="inverse-bg">
 <div class="container">
   <div class="row-fluid">

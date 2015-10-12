@@ -41,6 +41,7 @@
              'htmlOptions'=>array("class"=>"nav"),
               'items'=>array(
                 array('label'=>'Inicio', 'url'=>array('/site/index')),
+                array('label'=>'Encuesta', 'url'=>array('/site/encuesta')),
                 array('label'=>'Nosotros', 'url'=>array('/site/page', 'view'=>'about')),
                 array('label'=>'Contacto', 'url'=>array('/site/contact')),
                 array('label'=>'Ingresar', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
@@ -140,5 +141,6 @@
 
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/js.js"></script>
   </body>
 </html>
