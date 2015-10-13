@@ -1,3 +1,4 @@
+
 var questions = [
    {   text: 'How much wood could a woodchuck chuck if a woodchuck could chuck wood?', 
          id: '1', 
@@ -81,6 +82,7 @@ var questions = [
     options: ["headphones", "kittens", "a tree", "a hippy"]}
 ];
 
+
 var portionOfWindowSizeForQuestions = 0.9;
 var firstQuestionDisplayed = 0;
 var lastQuestionDisplayed = 0;
@@ -111,8 +113,7 @@ $(document).ready(function(){
 });
 
 
-
-function generateQuestionElement(question) {
+  function generateQuestionElement(question) {
   
   var questionId = "q_" + question.id;
   var questionElement = $('<div id="' + questionId + '" class="question"></div>');
