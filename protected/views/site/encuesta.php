@@ -9,6 +9,7 @@ $this->breadcrumbs=array(
 
 <h1>Encuesta</h1>
 	
+
 	<form method="post" action="nextBtn">
 		<div style="background-color:#EEEEEE;padding:2px;font-family:Arial;font-size:small;color:#000000;">
 			<div style="padding:2px 0px 4px 2px;">
@@ -81,9 +82,10 @@ $this->breadcrumbs=array(
 <div align="center" style="padding:3px;">
 	<input type="submit" value=" Vote ">&nbsp;
 </div><div align="right" style="font-size:10px"></div></div></form>	
-		
 
-
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Poll Test</title>
+<link href="poll/template/styles.css" rel="stylesheet" type="text/css" />
 
 
 	</form>

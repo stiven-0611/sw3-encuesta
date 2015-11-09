@@ -10,6 +10,10 @@
     <!-- Le styles -->
     <link href="<?php echo Yii::app()->theme->baseUrl;?>/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo Yii::app()->theme->baseUrl;?>/css/responsive.min.css" rel="stylesheet">
+    <link href="<?php echo Yii::app()->theme->baseUrl;?>/js/jquery.js" rel="stylesheet">
+    <link href="<?php echo Yii::app()->theme->baseUrl;?>/js/js.js" rel="stylesheet">
+
+ 
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -33,7 +37,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand" href="#">My app</a>
+      <a class="brand" href="#">Encuestas Uniquindío</a>
 
 
       <div class="nav-collapse collapse pull-right">
@@ -42,11 +46,8 @@
               'items'=>array(
                 array('label'=>'Inicio', 'url'=>array('/site/index')),
                 array('label'=>'Encuesta', 'url'=>array('/site/encuesta')),
-                array('label'=>'Nosotros', 'url'=>array('/site/page', 'view'=>'about')),
-                array('label'=>'Contacto', 'url'=>array('/site/contact')),
                 array('label'=>'Ingresar', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-                array('label'=>'Salir ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
-              ),
+                array('label'=>'Salir ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)),
             )); ?>
 
  
@@ -139,8 +140,6 @@
     <!--close footer-credits container-->
 </section>
 
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/js.js"></script>
+ 
   </body>
 </html>
