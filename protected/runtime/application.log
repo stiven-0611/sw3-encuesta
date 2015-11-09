@@ -13297,3 +13297,14 @@ Stack trace:
 REQUEST_URI=/yii/encuesta/site/poll/template/styles.css
 HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
 ---
+2015/11/09 19:17:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "poll".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('poll')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('poll')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/poll/templ...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/poll/template/styles.css
+HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
+---

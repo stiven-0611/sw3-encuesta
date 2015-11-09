@@ -45,51 +45,68 @@ $VALID_POLLS = array();	// The keys of this associative array are the poll IDs
 
 // First poll definition
 $p = new Poll;
-$p->question = "De la lista de enunciados que aparecen a continuación señale tres (3) de ellos que según usted  
-				reflejan más fielmente el sentido de la Misión de la Universidad. En caso de no conocer la misión de la 
-				Universidad deje la pregunta en blanco y continúe en la pregunta 3.?";	// Question displayed to the user
+$p->question = "Valore los procesos de inducción que la Universidad realiza a los estudiantes que ingresan a primer semestre, con respecto a su calidad";	// Question displayed to the user
 $p->returnToURL = "../example.php";				// Specify the URL to return to for this poll; may be relative or absolute
 $p->legend = "Pregunta 1";						// Form legend; leave empty for none
-$p->control_type = $CONTROL_RADIOBUTTONS;		// Control type; $CONTROL_RADIOBUTTONS or $CONTROL_COMBOBOX
-$p->add_value("1", "Educar personas integras con capacidad de liderazgo.");						// Poll value ID and a display string
-$p->add_value("2", "Permitir a la comunidad del Eje Cafetero la oportunidad de acceder al conocimiento");
-$p->add_value("3", "Desafíos, sueños y compromisos");
-$p->add_value("4", "Formar para el empleo en la región");
-$p->add_value("5", "La consolidación de grupos de investigación y redes de cooperación");
-$p->add_value("6", "Formar profesionales con sentido humano, creativo e investigativo");
-$p->add_value("7", "Formar ciudadanos comprometidos con el conocimiento y la democracia");
-$p->add_value("8", "Crear sentido de pertenencia en todos los miembros de la comunidad universitaria");
-$p->add_value("9", "Facilitar la articulación con la sociedad quindiana para propiciar el desarrollo");
-$p->add_value("10", "Formar profesionales con sentido humano comprometidos con el desarrollo cultural, científico y tecnológico de la región y del país");
-$p->add_value("11", "La consolidación de la cultura y el desarrollo de competencias productivas");
-$p->add_value("12", "Ser líder del desarrollo económico, social y político de la región y del país");
-$p->add_value("13", "Producir y aplicar conocimiento en el entorno social");
+$p->control_type = $CONTROL_COMBOBOX;	// Control type; $CONTROL_RADIOBUTTONS or $CONTROL_COMBOBOX
+$p->add_value("1", "a. excelente");						// Poll value ID and a display string
+$p->add_value("2", "b. regular");
+$p->add_value("3", "c. deficiente");
+$p->add_value("4", "e. no sabe");
 $VALID_POLLS["1"] = $p;							// "1" is the poll ID
 
 // Second poll definition
 $p = new Poll;
-$p->question = "How old are you?";				// Question displayed to the user
+$p->question = "Califique la confiabilidad  de los procedimientos de admisión (selección de nuevos estudiantes, intercambios, transferencia, reingreso).";				// Question displayed to the user
 $p->returnToURL = "../example.php";				// Specify the URL to return to for this poll; may be relative or absolute
-$p->legend = "Second Poll";						// Form legend; leave empty for none
+$p->legend = "pregunta 2";						// Form legend; leave empty for none
 $p->control_type = $CONTROL_COMBOBOX;			// Control type; $CONTROL_RADIOBUTTONS or $CONTROL_COMBOBOX
-$p->add_value("1", "0-15 years");				// Poll value ID and a display string
-$p->add_value("2", "16-20 years");
-$p->add_value("3", "21-30 years");
-$p->add_value("4", "31-40 years");
-$p->add_value("5", "41-50 years");
-$p->add_value("6", "50+ years");
+$p->add_value("1", "a. Totalmente confiables");				// Poll value ID and a display string
+$p->add_value("2", "b. Confiables");
+$p->add_value("3", "c. Medianamente confiables");
+$p->add_value("4", "d. Poco confiables");
 $VALID_POLLS["2"] = $p;							// "2" is the poll ID
 
 // Third poll definition
-//$p = new Poll;
-//$p->question = "What is your favorite PHP script?";	// Question displayed to the user
-//$p->returnToURL = "../example.php";				// Specify the URL to return to for this poll; may be relative or absolute
-//$p->legend = "Third Poll";						// Form legend; leave empty for none
-//$p->control_type = $CONTROL_RADIOBUTTONS;		// Control type; $CONTROL_RADIOBUTTONS or $CONTROL_COMBOBOX
-//$p->add_value("1", "PHP Guestbook", "http://www.dbscripts.net/guestbook/");	// You may include the optional URL parameter to create a link
-//$p->add_value("2", "PHP Poll", "http://www.dbscripts.net/poll/");
-//$p->add_value("3", "PHP Image Gallery", "http://www.dbscripts.net/imagegallery/");
-//$p->add_value("4", "PHP Ratings", "http://www.dbscripts.net/ratings/");
-//$VALID_POLLS["3"] = $p;	
+$p = new Poll;
+$p->question = "Respecto a los procedimientos para la matricula académica (registro de asignaturas) y financiera  (pago del valor de la matrícula), considera que son CLaros";	// Question displayed to the user
+$p->returnToURL = "../example.php";				// Specify the URL to return to for this poll; may be relative or absolute
+$p->legend = "Pregunta 3";						// Form legend; leave empty for none
+$p->control_type = $CONTROL_RADIOBUTTONS;		// Control type; $CONTROL_RADIOBUTTONS or $CONTROL_COMBOBOX
+$p->add_value("1", "a. totalmente");	// You may include the optional URL parameter to create a link
+$p->add_value("2", "b. parcialmente");
+$p->add_value("3", "c. no es claro");
+$VALID_POLLS["3"] = $p;	
 
+$p = new Poll;
+$p->question = "¿Ha participado de los programas de intercambio estudiantil?";	// Question displayed to the user
+$p->returnToURL = "../example2.php";				// Specify the URL to return to for this poll; may be relative or absolute
+$p->legend = "Pregunta 4";						// Form legend; leave empty for none
+$p->control_type = $CONTROL_RADIOBUTTONS;		// Control type; $CONTROL_RADIOBUTTONS or $CONTROL_COMBOBOX
+$p->add_value("1", "a. si");	// You may include the optional URL parameter to create a link
+$p->add_value("2", "b. No");
+$p->add_value("3", "c. No me he enterado");
+$VALID_POLLS["4"] = $p;	
+
+$p = new Poll;
+$p->question = "Califique las facilidades de crédito ofrecidas por la Universidad del Quindío y por otras instituciones en convenio (ICETEX, bancos, corporaciones, etc.)";	// Question displayed to the user
+$p->returnToURL = "../example2.php";				// Specify the URL to return to for this poll; may be relative or absolute
+$p->legend = "Pregunta 5";						// Form legend; leave empty for none
+$p->control_type = $CONTROL_RADIOBUTTONS;		// Control type; $CONTROL_RADIOBUTTONS or $CONTROL_COMBOBOX
+$p->add_value("1", "a. Muy adecuadas");	// You may include the optional URL parameter to create a link
+$p->add_value("2", "b. Adecuadas");
+$p->add_value("3", "c. Medianamente adecuadas");
+$p->add_value("3", "c. Inadecuado");
+$VALID_POLLS["5"] = $p;	
+
+$p = new Poll;
+$p->question = "Teniendo en cuenta que la interdisciplinariedad es la interacción de diferentes profesiones para la comprensión integral de los fenómenos sociales y naturales, califique según la Política Académico-Curricular de la Universidad, la interdisciplinariedad en cuanto a grado de aplicación";	// Question displayed to the user
+$p->returnToURL = "../example2.php";				// Specify the URL to return to for this poll; may be relative or absolute
+$p->legend = "Pregunta 6";						// Form legend; leave empty for none
+$p->control_type = $CONTROL_RADIOBUTTONS;		// Control type; $CONTROL_RADIOBUTTONS or $CONTROL_COMBOBOX
+$p->add_value("1", "a. Alto");	// You may include the optional URL parameter to create a link
+$p->add_value("2", "b. Medio");
+$p->add_value("3", "c. Bajo");
+$p->add_value("3", "c. No sabe");
+$VALID_POLLS["6"] = $p;	
 ?>
