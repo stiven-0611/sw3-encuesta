@@ -45,7 +45,6 @@
              'htmlOptions'=>array("class"=>"nav"),
               'items'=>array(
                 array('label'=>'Inicio', 'url'=>array('/site/index')),
-                array('label'=>'Encuesta', 'url'=>array('/site/encuesta')),
                 array('label'=>'Ingresar', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
                 array('label'=>'Salir ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)),
             )); ?>

@@ -13308,3 +13308,180 @@ Stack trace:
 REQUEST_URI=/yii/encuesta/site/poll/template/styles.css
 HTTP_REFERER=http://localhost/yii/encuesta/site/encuesta.html
 ---
+2015/11/10 01:31:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "example.php".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('example.php')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/encuesta/example.php
+HTTP_REFERER=http://localhost/yii/encuesta/site/login.html
+---
+2015/11/10 01:31:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "example.php".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('example.php')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/encuesta/example.php
+HTTP_REFERER=http://localhost/yii/encuesta/site/login.html
+---
+2015/11/10 01:31:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "example.php".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('example.php')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/encuesta/example.php
+HTTP_REFERER=http://localhost/yii/encuesta/site/login.html
+---
+2015/11/10 01:31:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "example.php".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('example.php')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/encuesta/example.php
+HTTP_REFERER=http://localhost/yii/encuesta/site/login.html
+---
+2015/11/10 01:31:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "poll".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('poll')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('poll')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/poll/examp...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/poll/example.php
+HTTP_REFERER=http://localhost/yii/encuesta/site/login.html
+---
+2015/11/10 01:32:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "poll".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('poll')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('poll')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/poll/examp...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/poll/example.php
+HTTP_REFERER=http://localhost/yii/encuesta/site/login.html
+---
+2015/11/10 01:33:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "poll".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('poll')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('poll')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/poll/examp...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/poll/example.php
+HTTP_REFERER=http://localhost/yii/encuesta/site/login.html
+---
+2015/11/10 01:33:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "poll".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('poll')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('poll')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/poll/examp...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/poll/example.php
+HTTP_REFERER=http://localhost/yii/encuesta/site/login.html
+---
+2015/11/10 01:33:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "poll".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('poll')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('poll')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/poll/examp...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/poll/example.php
+HTTP_REFERER=http://localhost/yii/encuesta/site/login.html
+---
+2015/11/10 01:33:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "poll".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('poll')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('poll')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/poll/examp...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/poll/example.php
+HTTP_REFERER=http://localhost/yii/encuesta/site/login.html
+---
+2015/11/10 01:33:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "poll".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('poll')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('poll')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/poll/examp...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/poll/example.php
+HTTP_REFERER=http://localhost/yii/encuesta/site/login.html
+---
+2015/11/10 01:34:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "poll/example.php".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('poll/example.ph...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/encuesta/poll/example.php
+HTTP_REFERER=http://localhost/yii/encuesta/site/login.html
+---
+2015/11/10 01:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "poll".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('poll')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('poll')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/poll/examp...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/poll/example.php
+HTTP_REFERER=http://localhost/yii/encuesta/site/login.html
+---
+2015/11/10 01:35:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "example.php".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('example.php')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('example.php')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/example.ph...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/example.php
+HTTP_REFERER=http://localhost/yii/encuesta/site/login.html
+---
+2015/11/10 01:37:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "example.php".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('example.php')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('example.php')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/example.ph...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/example.php
+HTTP_REFERER=http://localhost/yii/encuesta/site/login.html
+---
+2015/11/10 01:37:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "example.php".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('example.php')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('example.php')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/example.ph...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/example.php
+HTTP_REFERER=http://localhost/yii/encuesta/site/login.html
+---
+2015/11/10 01:37:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "example.php".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('example.php')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('example.php')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/example.ph...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\encuesta\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/encuesta/site/example.php
+HTTP_REFERER=http://localhost/yii/encuesta/site/login.html
+---
