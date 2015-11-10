@@ -18,8 +18,7 @@
 <p>
 	Página 1
 </p>
-
-<h2>Pregunta 1</h2>
+<p>MISIÓN Y PROYECTO INSTITUCIONAL.</p>
 <?php
 
 	// The two lines below are all that is required to add a poll 
@@ -41,12 +40,12 @@
 	
 	// More than one poll can be displayed on the same page; here's 
 	// another example:
-	?><h2>Pregunta 2</h2><?php 
+	?><?php 
 	show_vote_control('2');
 
 	// The following poll demonstrates how turn the poll values into links;
 	// See config.php for the example definition.
-	?><h2>Pregunta 3</h2><?php 
+	?><?php 
 	show_vote_control('3');
 	
  ?>

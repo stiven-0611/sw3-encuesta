@@ -11,7 +11,10 @@
 
 <h1>Encuesta Universitaria</h1>
 
-<p>	Página 2</p>
+<p>
+	Página 4
+</p>
+
 
 <?php
 
@@ -30,26 +33,25 @@
 	//   New polls must be added to the $VALID_POLLS array in config.php. 
 	
 	require_once('poll/poll.php');
-	show_vote_control('4');
+	show_vote_control('10');
 	
 	// More than one poll can be displayed on the same page; here's 
 	// another example:
-	?><?php 
-	show_vote_control('5');
+	?><p>RECURSOS DE APOYO ACADÉMICO.</p>
+	<?php 
+	show_vote_control('11');
 
 	// The following poll demonstrates how turn the poll values into links;
 	// See config.php for the example definition.
-
-	?><p>PROCESOS ACADÉMICOS.</p>
-	<?php 
-	show_vote_control('6');
+	?><?php 
+	show_vote_control('12');
 	
  ?>
 
  
 	
-	<a id="backBtn" href="example.php" class="btn btn-large">Back</a>
-	...Página 2...
-	<a id="nextBtn" href="example3.php" class="btn btn-large">Next</a>
+	<a id="backBtn" href="example3.php" class="btn btn-large">Back</a>
+	...Página 4...
+	<a id="nextBtn" href="example4.php" class="btn btn-large">Next</a>
 </body>
 </html>

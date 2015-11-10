@@ -107,6 +107,77 @@ $p->control_type = $CONTROL_RADIOBUTTONS;		// Control type; $CONTROL_RADIOBUTTON
 $p->add_value("1", "a. Alto");	// You may include the optional URL parameter to create a link
 $p->add_value("2", "b. Medio");
 $p->add_value("3", "c. Bajo");
-$p->add_value("3", "c. No sabe");
+$p->add_value("4", "c. No sabe");
 $VALID_POLLS["6"] = $p;	
+
+$p = new Poll;
+$p->question = "¿En qué grado contribuyen las prácticas académicas, de campo, de laboratorio y profesionales a su formación profesional?";	// Question displayed to the user
+$p->returnToURL = "../example3.php";				// Specify the URL to return to for this poll; may be relative or absolute
+$p->legend = "Pregunta 7";						// Form legend; leave empty for none
+$p->control_type = $CONTROL_RADIOBUTTONS;		// Control type; $CONTROL_RADIOBUTTONS or $CONTROL_COMBOBOX
+$p->add_value("1", "a. Sobresaliente");	// You may include the optional URL parameter to create a link
+$p->add_value("2", "b. Bueno");
+$p->add_value("3", "c. Aceptable");
+$p->add_value("4", "d. Insuficiente");
+$p->add_value("5", "e. No sabe");
+$VALID_POLLS["7"] = $p;
+
+$p = new Poll;
+$p->question = "Evalúe el grado en que la estructura organizacional de la Universidad (rectoría, vicerrectorías, facultades, programas, consejos y comités y dependencias administrativas) facilita el adecuado desempeño de sus funciones";	// Question displayed to the user
+$p->returnToURL = "../example3.php";				// Specify the URL to return to for this poll; may be relative or absolute
+$p->legend = "Pregunta 8";						// Form legend; leave empty for none
+$p->control_type = $CONTROL_RADIOBUTTONS;		// Control type; $CONTROL_RADIOBUTTONS or $CONTROL_COMBOBOX
+$p->add_value("1", "a. Sobresaliente");	// You may include the optional URL parameter to create a link
+$p->add_value("2", "b. Bueno");
+$p->add_value("3", "c. Aceptable");
+$p->add_value("4", "d. Insuficiente");
+$VALID_POLLS["8"] = $p;
+
+$p = new Poll;
+$p->question = "Califique los órganos de gobierno de la Institución (Consejos Superior, Académico, de Facultad y Curriculares), en cuanto a Estructura:";	// Question displayed to the user
+$p->returnToURL = "../example3.php";				// Specify the URL to return to for this poll; may be relative or absolute
+$p->legend = "Pregunta 9";						// Form legend; leave empty for none
+$p->control_type = $CONTROL_RADIOBUTTONS;		// Control type; $CONTROL_RADIOBUTTONS or $CONTROL_COMBOBOX
+$p->add_value("1", "a. Muy adecuada");	// You may include the optional URL parameter to create a link
+$p->add_value("2", "b. Adecuada");
+$p->add_value("3", "c. Medianamente adecuada");
+$p->add_value("4", "d. Inadecuada");
+$VALID_POLLS["9"] = $p;
+
+$p = new Poll;
+$p->question = "Califique los órganos de gobierno de la Institución (Consejos Superior, Académico, de Facultad y Curriculares), en cuanto a confiabilidad:";	// Question displayed to the user
+$p->returnToURL = "../example4.php";				// Specify the URL to return to for this poll; may be relative or absolute
+$p->legend = "Pregunta 10";						// Form legend; leave empty for none
+$p->control_type = $CONTROL_RADIOBUTTONS;		// Control type; $CONTROL_RADIOBUTTONS or $CONTROL_COMBOBOX
+$p->add_value("1", "a. Totalmente confiables");	// You may include the optional URL parameter to create a link
+$p->add_value("2", "b. Confiables");
+$p->add_value("3", "c. Medianamente confiables");
+$p->add_value("4", "d. Poco confiables");
+$VALID_POLLS["10"] = $p;
+
+$p = new Poll;
+$p->question = "¿Con qué frecuencia promedio utiliza las bases de datos y bibliotecas digitales de la Institución?";	// Question displayed to the user
+$p->returnToURL = "../example4.php";				// Specify the URL to return to for this poll; may be relative or absolute
+$p->legend = "Pregunta 11";						// Form legend; leave empty for none
+$p->control_type = $CONTROL_COMBOBOX;		// Control type; $CONTROL_RADIOBUTTONS or $CONTROL_COMBOBOX
+$p->add_value("1", "a. Diariamente");	// You may include the optional URL parameter to create a link
+$p->add_value("2", "b. Dos o tres veces por semana");
+$p->add_value("3", "c. Una vez por semana");
+$p->add_value("4", "d. Cada quince días");
+$p->add_value("5", "e. Una vez por mes");
+$p->add_value("6", "f. Cada seis meses");
+$p->add_value("7", "g. Una vez por año");
+$VALID_POLLS["11"] = $p;
+
+$p = new Poll;
+$p->question = "Califique la calidad de los servicios prestados por la Biblioteca Central a través de las bases de datos y bibliotecas digitales";	// Question displayed to the user
+$p->returnToURL = "../example4.php";				// Specify the URL to return to for this poll; may be relative or absolute
+$p->legend = "Pregunta 12";						// Form legend; leave empty for none
+$p->control_type = $CONTROL_RADIOBUTTONS;		// Control type; $CONTROL_RADIOBUTTONS or $CONTROL_COMBOBOX
+$p->add_value("1", "a. Excelente");	// You may include the optional URL parameter to create a link
+$p->add_value("2", "b. Buena");
+$p->add_value("3", "c. Regular");
+$p->add_value("4", "d. Deficiente");
+$VALID_POLLS["12"] = $p;
+
 ?>
